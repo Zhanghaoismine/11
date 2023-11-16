@@ -11,7 +11,7 @@ int main(void) {
 	int *cptr;
 	cptr=&c;
 	int *iptr2;
-	iptr2=&i;
+	iptr2=iptr;
 	
 	printf("i:%p\n%p(size:%i)\n",iptr,&i,sizeof(iptr));
 	printf("c:%p\n%p(size:%i)\n",cptr,&c,sizeof(cptr));
